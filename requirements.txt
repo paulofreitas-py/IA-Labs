@@ -1,0 +1,14 @@
+
+#uv pip install --system -r requirements.txt
+#.venv\Scripts\Activate.ps1
+#uv pip install --upgrade --force-reinstall crewai openai litellm
+#uv pip install "crewai[tools]"
+
+crewai
+openai
+uv
+psycopg2-binary
+pinecone-client
+langgraph
+matplotlib
+langchain-openai
